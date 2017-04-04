@@ -48,7 +48,7 @@ const groupings = group(
 );
 ```
 
-The gives us:
+This gives us:
 ```js
 // The original:
 groupings.items; // === books
