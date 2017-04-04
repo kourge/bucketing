@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "group an array of items into buckets",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "mocha --require ts-node/register ./src/**/*.spec.ts",
     "lint": "tslint --project .",
