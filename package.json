@@ -1,0 +1,42 @@
+{
+  "name": "bucketing",
+  "version": "0.0.1",
+  "description": "group an array of items into buckets",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register ./src/**/*.spec.ts",
+    "lint": "tslint --project .",
+    "prebuild": "rm -rf lib",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kourge/bucketing.git"
+  },
+  "keywords": [
+    "array",
+    "groupby",
+    "group",
+    "bucket",
+    "bucketing",
+    "utility"
+  ],
+  "author": {
+    "name": "Wil Lee",
+    "email": "kourge@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kourge/bucketing/issues"
+  },
+  "homepage": "https://github.com/kourge/bucketing#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.40",
+    "chai": "3.5.0",
+    "mocha": "3.2.0",
+    "ts-node": "3.0.2",
+    "tslint": "5.0.0",
+    "typescript": "2.2.2"
+  }
+}
